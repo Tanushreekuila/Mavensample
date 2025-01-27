@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-27T12:36:01 GMT+05:30" name="Default suite" finished-at="2025-01-27T12:36:05 GMT+05:30" duration-ms="3992">
+    <groups>
+    </groups>
+    <test started-at="2025-01-27T12:36:01 GMT+05:30" name="Default test" finished-at="2025-01-27T12:36:05 GMT+05:30" duration-ms="3992">
+      <class name="com.facebook.testcases.Verifyloginpage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.facebook.testcases.Verifyloginpage@3a393455]" started-at="2025-01-27T12:36:01 GMT+05:30" name="setup" finished-at="2025-01-27T12:36:03 GMT+05:30" duration-ms="2524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getresults()[pri:0, instance:com.facebook.testcases.Verifyloginpage@3a393455]" started-at="2025-01-27T12:36:03 GMT+05:30" name="getresults" finished-at="2025-01-27T12:36:03 GMT+05:30" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresults -->
+        <test-method signature="verymsg()[pri:0, instance:com.facebook.testcases.Verifyloginpage@3a393455]" started-at="2025-01-27T12:36:03 GMT+05:30" name="verymsg" finished-at="2025-01-27T12:36:05 GMT+05:30" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verymsg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.facebook.testcases.Verifyloginpage@3a393455]" started-at="2025-01-27T12:36:05 GMT+05:30" name="teardown" finished-at="2025-01-27T12:36:05 GMT+05:30" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.facebook.testcases.Verifyloginpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
