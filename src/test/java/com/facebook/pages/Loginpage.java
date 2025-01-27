@@ -1,5 +1,8 @@
 package com.facebook.pages;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -27,7 +30,7 @@ public class Loginpage {
 	 {
 	 Properties prop =new Properties();
 	 FileReader reader=null;
-	 prop.load(new FileReader("C:\\Users\\kuilata\\eclipse-workspace\\Mavenproject1\\drivers\\chromedriver.exe"));
+	prop.load(new FileReader("C:\\Users\\kuilata\\eclipse-workspace\\Mavenproject1\\src\\test\\java\\com\\facebook\\pages\\config.properties"));
 	 //driver.get(prop.getProperty("loginbutton"));
 	return prop;
 }
@@ -44,11 +47,12 @@ public class Loginpage {
 	 driver.findElement(By.xpath(pr.getProperty("loginbutton"))).click();
  }
  
- public boolean verifymessage()
+ public  boolean verifymessage()
  {
 
 		WebElement message=(driver.findElement(By.xpath("//div[@class='_9ay7']")));
 		return message.isDisplayed();
+		
 	
 	
  }
