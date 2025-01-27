@@ -36,13 +36,24 @@ public class Verifyloginpage {
         lg.clickingbtn();
 	}
 	
-	/*@Test
-	public boolean verymsg()
+	@Test
+	public void verymsg()
 	{
-       boolean actual=lg.verifymessage();
-        assert.assertTrue(actual,"");
+       boolean act=lg.verifymessage();
+      Assert.assertTrue(act, "element not present");
+      System.out.println(act);
       
-	}*/
+      //OR
+		/*if(lg.verifymessage())
+		{
+			System.out.println("element is presnet");
+		}
+		else
+		{
+			System.out.println("not present");
+		}*/
+      
+	}
 	
 	
 	
